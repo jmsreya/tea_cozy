@@ -1,0 +1,18 @@
+* {
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    height: 70px;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+}
+
+header ul {
+    text-decoration: underline;
+    
+}
