@@ -86,7 +86,7 @@ header {
 }
 
 .tea-items > * {
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .tea-items img {
@@ -99,11 +99,14 @@ header {
 
 .locations {
     background-image: url(/images/img-locations-background.webp);
+    background-size: auto;
     height: 500px;
     max-width: 1200px;
-    padding: 50px;
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 50px;
     text-align: center;
+    padding-top: 50px;
+
 }
 
 .locations h2 {
@@ -128,4 +131,26 @@ header {
     align-items: center;
     line-height: 60px;
     font-size: 18px;
+}
+
+.location-items:nth-child(3) {
+    opacity: 1;
+}
+
+/* ---------------- contact ---------------- */
+
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.contact h5 {
+    padding: 20px;
+}
+
+/* ---------------- footer ------------- */
+
+.footer {
+    padding-left: 20px;
+    padding-bottom: 40px;
 }
